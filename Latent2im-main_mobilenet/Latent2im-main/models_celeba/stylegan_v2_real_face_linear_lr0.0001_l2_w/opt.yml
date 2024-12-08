@@ -1,0 +1,58 @@
+attrList: Smiling
+attrPath: ./dataset/attributes_celeba.txt
+gpu: '0'
+help: null
+layers: null
+learning_rate: 0.0001
+loss: l2
+model: stylegan_v2_real
+model_save_freq: 400
+models_dir: ./models_celeba
+name: null
+no_content_loss: false
+no_gan_loss: false
+num_samples: 20000
+output_dir: ./models_celeba\stylegan_v2_real_face_linear_lr0.0001_l2_w
+overwrite_config: false
+prefix: null
+suffix: null
+trainEmbed: false
+transform: face
+updateGAN: false
+walk_type: linear
+biggan:
+  category: null
+color:
+  channel: null
+nn:
+  eps: null
+  num_steps: null
+options:
+  attrList: Smiling
+  attrPath: ./dataset/attributes_celeba.txt
+  config_file: null
+  gpu: '0'
+  help: null
+  layers: null
+  learning_rate: 0.0001
+  loss: l2
+  model: stylegan_v2_real
+  model_save_freq: 400
+  models_dir: ./models_celeba
+  name: null
+  no_content_loss: false
+  no_gan_loss: false
+  num_samples: 20000
+  overwrite_config: true
+  prefix: null
+  suffix: null
+  trainEmbed: false
+  transform: face
+  updateGAN: false
+  walk_type: linear
+pggan:
+  dset: celebahq
+stylegan:
+  dataset: scene
+  latent: w
+  truncation_psi: 1.0

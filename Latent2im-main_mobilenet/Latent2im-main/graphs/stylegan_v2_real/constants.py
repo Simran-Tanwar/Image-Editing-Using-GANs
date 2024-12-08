@@ -1,0 +1,27 @@
+BATCH_SIZE = 8
+DIM_Z = 512  # used only for setting default arg value
+resolution = 256
+# resolution = 128
+useGPU = True
+NUM_CHANNELS = 3
+
+## Regressor - Scene
+# reg_json = None
+# reg_path = '/path/500_dict.model'
+## StyleGAN2 - scene
+# g_path = '/path/checkpoint/190000.pt'
+
+## Regressor (Mobilenet_v2) - celeba
+reg_json = None
+#reg_path = "C:\Users\Sanika Padegaonkar\Documents\Sanika_to_New_Laptop\Class Materials\EE782\Project\Latent2im-main\Latent2im-main\weights\003_dict.model"
+reg_path = '/content/drive/MyDrive/EE782/Project/regressor_weights_mobilenet/003_dict.model'
+## StyleGAN2 - ffhq
+#g_path = "C:\Users\Sanika Padegaonkar\Documents\Sanika_to_New_Laptop\Class Materials\EE782\Project\Latent2im-main\Latent2im-main\weights\550000.pt"
+g_path = '/content/drive/MyDrive/EE782/Project/550000.pt'
+
+"""
+If use a WGAN-GP loss (not used in the end)
+"""
+# CRITIC_ITERS = 5 # For WGAN and WGAN-GP, number of critic iters per gen iter
+# LAMBDA = 10 # Gradient penalty lambda hyperparameter
+# ITERS = 200000 # How many generator iterations to train for

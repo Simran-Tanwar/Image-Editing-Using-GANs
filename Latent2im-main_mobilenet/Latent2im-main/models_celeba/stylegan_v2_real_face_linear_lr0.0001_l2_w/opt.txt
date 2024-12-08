@@ -1,0 +1,60 @@
+----------------- Options ---------------
+                 attrList: Smiling                       	[default: None]
+                 attrPath: ./dataset/attributes_celeba.txt	[default: ]
+                      gpu: 0                             	[default: ]
+                     help: None                          	[default: ==SUPPRESS==]
+                   layers: None                          
+            learning_rate: 0.0001                        
+                     loss: l2                            
+                    model: stylegan_v2_real              	[default: biggan]
+          model_save_freq: 400                           
+               models_dir: ./models_celeba               	[default: ./models]
+                     name: None                          
+          no_content_loss: False                         
+              no_gan_loss: False                         
+              num_samples: 20000                         
+               output_dir: ./models_celeba\stylegan_v2_real_face_linear_lr0.0001_l2_w	[default: None]
+         overwrite_config: True                          	[default: False]
+                   prefix: None                          
+                   suffix: None                          
+               trainEmbed: False                         
+                transform: face                          	[default: zoom]
+                updateGAN: False                         
+                walk_type: linear                        	[default: NNz]
+biggan -------------
+                 category: None                          
+color --------------
+                  channel: None                          
+nn -----------------
+                      eps: None                          
+                num_steps: None                          
+options ------------
+                 attrList: Smiling                       	[default: None]
+                 attrPath: ./dataset/attributes_celeba.txt	[default: ]
+              config_file: None                          
+                      gpu: 0                             	[default: ]
+                     help: None                          	[default: ==SUPPRESS==]
+                   layers: None                          
+            learning_rate: 0.0001                        
+                     loss: l2                            
+                    model: stylegan_v2_real              	[default: biggan]
+          model_save_freq: 400                           
+               models_dir: ./models_celeba               	[default: ./models]
+                     name: None                          
+          no_content_loss: False                         
+              no_gan_loss: False                         
+              num_samples: 20000                         
+         overwrite_config: True                          	[default: False]
+                   prefix: None                          
+                   suffix: None                          
+               trainEmbed: False                         
+                transform: face                          	[default: zoom]
+                updateGAN: False                         
+                walk_type: linear                        	[default: NNz]
+pggan --------------
+                     dset: celebahq                      
+stylegan -----------
+                  dataset: scene                         
+                   latent: w                             
+           truncation_psi: 1.0                           
+----------------- End -------------------
